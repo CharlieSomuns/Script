@@ -1,0 +1,2 @@
+# Script
+Apply installation scripts
