@@ -4,7 +4,7 @@ set -e
 tmp_dir=/tmp/$$
 
 source_rabbitmq="/etc/apt/sources.list.d/rabbitmq-server.list"
-erlang_dep="https://packages.erlang-solutions.com/erlang/esl-erlang/FLAVOUR_1_general/esl-erlang_21.3.6-1~ubuntu~xenial_amd64.deb"
+erlang_dep="https://packages.erlang-solutions.com/erlang/debian/pool/esl-erlang_21.3.6-1~ubuntu~xenial_amd64.deb"
 plugins="https://dl.bintray.com/rabbitmq/community-plugins/3.7.x/rabbitmq_delayed_message_exchange/rabbitmq_delayed_message_exchange-20171201-3.7.x.zip"
 
 install_erlang21() {
